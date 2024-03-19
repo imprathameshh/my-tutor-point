@@ -1,0 +1,149 @@
+/* ========================================= 
+              SIGNUP START 
+===========================================*/
+
+.signup-wrap .agreed{
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+.section-wrap .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.section-wrap .row .col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.signup-wrap .agreed a{
+    color: #C6521E;
+    display: inline-block;    
+    text-decoration-line: underline;
+    margin: 0 4px;
+}
+.signup-wrap .section-form form{
+    padding-bottom: 29px;
+}
+.signup-wrap .tutor-link{
+    padding-top: 22px;
+    border-top: 1px solid #898785;
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+}
+.signup-wrap .tutor-link a{
+    color: #C6521E;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    display: inline-block;
+}
+
+/* COUNTERY CODE START   */
+ .form-group.countery-code input{
+    padding-left: 60px; 
+}
+.countery-code .flag-dropdown{
+    border: 0;
+}
+.countery-code .selected-flag{
+    padding-left: 16px;
+}
+.countery-code .form-control{
+    width: 100%;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 400;
+}
+.countery-code .selected-flag .arrow{
+    top: 1px;
+    height: 10px;
+    width: 15px;
+    left: 22px;
+    background-repeat: no-repeat;
+    border: 0;
+    margin-top: 0;
+    background-image: url("../../Assets//Images//down-arrow.svg");
+}
+.countery-code .selected-flag .arrow.up{
+    border-bottom: 0;
+    background-repeat: no-repeat;
+    border: 0;
+    margin-top: 0;
+    background-image: url("../../Assets//Images//down-arrow.svg");
+    transform: rotate(180deg);
+    border-bottom: 0;
+}
+.countery-code .form-control{
+   
+}
+/* COUNTERY CODE END   */
+/* SELECT BOX START  */
+ .rect-select-input{
+    width: 100%;
+    border-radius: 0 !important;
+}
+.rect-select-input .rect-select__control{
+    border-style: none;
+    border-color: #fff;
+}
+.css-t3ipsp-control {
+    box-shadow:none !important;
+}
+.form-group .rect-select__control:focus,
+.form-group .rect-select__control:active,
+.form-group .rect-select__control:focus-within{
+    box-shadow: 0 0 0 1px #C6521E !important;
+}
+.form-group .rect-select__control:hover,.css-t3ipsp-control:hover{
+    border-color: #C6521E !important;
+}
+.form-group .rect-select-input .rect-select__value-container{
+    padding-left: 16px;
+}
+.form-group .rect-select-input .rect-select__input-container{
+    margin: 0;
+}
+.form-group .rect-select-input .rect-select__indicator-separator{
+    display: none;
+}
+.form-group .rect-select-input .rect-select__indicator{
+    padding-right: 22px;
+}
+.form-group .rect-select__option{
+    padding-left: 16px;
+}
+.form-group .rect-select__option.rect-select__option--is-selected{
+    background-color: #C6521E;
+    color: #fff;
+}
+.form-group .rect-select__option.rect-select__option--is-focused{
+    background-color: #e59069;
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+.form-group .rect-select__menu-list{
+     padding-top: 0;
+    padding-bottom: 0;
+}
+/* SELECT BOX END  */
+
+
+/* ========================================= 
+                1024 START
+===========================================*/
+@media(max-width: 1024px) {
+    .signup-wrap .row .col-6{
+        width: 100%;        
+    }
+}
+
+/*========================================= 
+                1024 END
+===========================================*/
+/* ========================================= 
+              SIGNUP END 
+===========================================*/

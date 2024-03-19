@@ -1,0 +1,114 @@
+/* ========================================= 
+              HEADER START 
+===========================================*/
+/* SMOOTH HEADER START */
+.header-wrap {
+    height: 110px;
+    background: #FFF;
+}
+header{
+    background: #FFF;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    z-index: 99;
+}
+.header-wrap.sticky {
+    height: 100px;
+}
+.sticky header {
+    height: 100px;
+    box-shadow: 0 0 48px rgba(0, 0, 0, .08);
+}
+/* SMOOTH HEADER END */
+.container>nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0;
+}
+.router-link {
+    margin-left: auto;
+}
+.router-link ul {
+    display: flex;
+    text-transform: uppercase;
+}
+.router-link ul li a {
+    padding: 9px 28px;
+    transition: all .3s ease-in-out;
+}
+.router-link ul li a {
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.active {
+    background: #C6521E;
+    color: #FFF !important;
+}
+.router-link ul li:first-child a {
+    border-radius: 34px 0 0 34px;
+}
+.router-link ul li:last-child a {
+    border-radius: 0 34px 34px 0;
+}
+/* USER DEOPDOWN START  */
+.user-dropdown{
+    margin-left: auto;
+    position: relative;
+}
+.user-name{
+    background: #C6521E;
+    color: #FFF !important;
+    border-radius: 0 34px 34px 0;
+    padding: 9px 28px 10px;
+    cursor: pointer;    
+}
+.dropdown-content{
+    position: absolute;
+    top: 39px;
+    left: 0;
+    background: #fff;
+    padding: 20px 26px;
+    width: 140px;
+    color: #666;
+}
+.dropdown-content ul li{
+    padding: 5px 0;
+}
+.dropdown-content ul li:hover {
+    cursor: pointer;
+    color: #C6521E;
+}
+/* USER DEOPDOWN END  */
+/* ========================================= 
+                500 START
+===========================================*/
+@media(max-width: 500px) {
+    .header-wrap header{
+        height: 155px;
+    }
+    .sticky header {
+        height: 150px;
+    }
+    .header-wrap .logo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .router-link{
+        margin: 0 auto;
+    }
+
+}
+/*========================================= 
+                500 END
+===========================================*/
+/*========================================= 
+              HEADER END 
+===========================================*/

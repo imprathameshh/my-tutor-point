@@ -1,0 +1,13 @@
+.verification-wrap .verify-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.verification-wrap .verify-body h1{
+    padding-right: 15px;
+}
+
+.clip-loader span{
+    border-color: black;
+}

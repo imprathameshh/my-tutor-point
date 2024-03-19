@@ -1,0 +1,111 @@
+/* ========================================= 
+              FOOTER START
+===========================================*/
+.footer-wrap .footer-top {
+    background: #E0D8D3;
+    padding: 45px 0;
+}
+.footer-wrap .footer-top .row {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.footer-wrap .footer-list {
+    width: 16.66%;
+}
+.footer-wrap .footer-list>h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-wrap .footer-list>ul {
+    padding-top: 19px;
+}
+.footer-wrap .footer-list>ul li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+.footer-wrap .footer-list>ul li a:hover {
+    color: #C6521E;
+}
+.footer-wrap .footer-list>ul li+li {
+    padding-top: 13px;
+}
+.footer-bottom{
+    padding: 28px 0;
+    background: #C4BDB8;
+}
+.footer-bottom .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-wrap .footer-bottom .social-icon ul{
+    display: flex;
+    align-items: center;
+}
+.footer-wrap .footer-bottom .social-icon ul li + li{
+    padding-left: 20px;
+}
+.subscribe-group{
+    padding-top: 27px;
+}
+/* ========================================= 
+                1024 START
+===========================================*/
+@media(max-width: 1024px) {
+    .footer-wrap .footer-top .row {
+        flex-wrap: wrap;
+    }
+    .footer-wrap .footer-list{
+        width: 30%;
+    }
+}
+/*========================================= 
+                1024 END
+===========================================*/
+/*========================================= 
+                767 END
+===========================================*/
+@media(max-width: 767px) {
+    .footer-wrap .footer-list {
+        width: 46%;
+    }
+    .footer-bottom .row {
+        gap: 20px;
+        text-align: center;
+    }
+    .footer-wrap .footer-bottom .social-icon ul{
+        justify-content: center;
+    }
+    .footer-bottom-child{
+        width: 100%;
+    }
+}
+/*========================================= 
+                767 END
+===========================================*/
+/*========================================= 
+                500 END
+===========================================*/
+@media(max-width: 500px) {
+    .footer-wrap .footer-list {
+        width: 100%;
+    }
+}
+
+/*========================================= 
+                500 END
+===========================================*/
+
+
+/* ========================================= 
+              FOOTER END 
+===========================================*/

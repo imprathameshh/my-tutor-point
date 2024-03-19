@@ -1,0 +1,16 @@
+.profile-nav-wrap {
+    background: #F4EFE6;
+    padding: 23px 0;
+}
+.profile-nav-wrap ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-nav-wrap ul li a{
+    display: flex;
+    align-items: center;
+}
+.profile-nav-wrap ul li .menu-link{
+    padding-right: 8px;
+}

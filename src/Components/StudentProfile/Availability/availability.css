@@ -1,0 +1,48 @@
+.calendar-wrap{
+    background: #EAE0D7;
+    padding: 16px 14px;
+    margin-bottom: 33px;
+}
+.calendar-wrap table{
+    margin: 0 auto;
+}
+.calendar-wrap tr th{
+    padding: 13px 36px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #EAE0D7;
+    background: #F4EFE6;
+    text-align: center;
+}
+.calendar-wrap table thead tr th:first-child{
+    background: #EAE0D7;
+}
+.time-slot {
+    padding: 13px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 245px;
+}
+ input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+    accent-color: #C6521E;
+    border: 1px solid #D5D5D5;
+} 
+.calendar-wrap table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.calendar-wrap table {
+    background-color: #EAE0D7;
+}
+.calendar-wrap table td {
+    background-color: #F9F8F7;
+    border: 1px solid #EAE0D7;
+    text-align: center;
+}

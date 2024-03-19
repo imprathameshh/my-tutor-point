@@ -1,0 +1,33 @@
+.accordion-wrap .accordion-main{
+    padding: 60px 0 116px 0;
+}
+.accordion-wrap .accordion-component .accordion-title{
+    background: #c6521c;
+    color: #fff;
+    padding: 12px 48px;
+}
+.accordion-wrap .accordion-component{
+    padding-bottom: 30px;
+}
+.accordion-wrap .accordion-component h2{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.accordion-wrap .form-wrap-main{
+    margin: 0 -15px;
+}
+.accordion-title{
+    position: relative;
+    cursor: pointer;
+}
+.accordion-title .accordion-arrow {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 33px;
+    top: 10px;
+    transition: all .3s ease-in-out;
+}
+.accordion-component.accordion-opened .accordion-arrow{
+    transform: rotate(360deg);
+    top: 15px; 
+}
